@@ -1,0 +1,79 @@
+*html,body
+{
+    margin: 0;
+    padding: 0;
+}
+header
+{
+    background-color: antiquewhite;
+    height: 270px;
+    line-height: 112px;
+}
+ul
+{
+    list-style: none;
+    
+}
+ul li
+{
+    display: inline-block;
+}
+header nav 
+{
+    float:right;
+}
+
+.logo img
+{
+    margin-top: 30px;
+}
+
+header nav ul li a
+{
+    padding-right: 100px;
+    font-weight: bold;
+    color:blueviolet;
+    transition: all 0.5sec ease-in;
+    
+}
+
+header nav ul li a:hover
+{
+    text-decoration: none;
+    color:red;
+}
+
+.img1 
+{
+    background-image:url(..//Image/pc.jpg);
+        background-size: 100% 100%;
+}
+.slider,.slider ul,.slider ul li
+{
+    height: 425px;
+    width: 1200px;
+    color: white;
+    text-align: center;
+    
+}
+
+.sliderh2
+{
+    font-weight: bold;
+}
+.slider a
+{
+    color: black;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
